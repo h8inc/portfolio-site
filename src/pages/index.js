@@ -6,7 +6,18 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
-const links = [
+
+const IndexPage = () => (
+  <Layout>
+    
+      <h1>
+        Welcome to <b>Gatsby!</b>
+      </h1>
+     
+  </Layout>
+)
+
+/** const links = [
   {
     text: "Tutorial",
     url: "https://www.gatsbyjs.com/docs/tutorial",
